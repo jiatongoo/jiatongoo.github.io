@@ -9,19 +9,20 @@
       font-family: 'Helvetica Neue', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f1f1f1;
+      background-color: #f8f8f8;
       color: #333;
     }
     header {
-      background-color: #333;
+      background-image: linear-gradient(to bottom right, #1e5799, #2989d8, #7db9e8);
       color: #fff;
       text-align: center;
-      padding: 30px 0;
+      padding: 50px 0;
     }
     h1 {
       margin: 0;
       font-size: 48px;
       font-weight: bold;
+      text-shadow: 2px 2px #333;
     }
     main {
       max-width: 800px;
@@ -35,7 +36,8 @@
       font-size: 28px;
       margin-top: 40px;
       font-weight: bold;
-      color: #0077c2;
+      color: #1e5799;
+      text-shadow: 1px 1px #eee;
     }
     p {
       font-size: 18px;
@@ -46,7 +48,8 @@
       font-size: 24px;
       margin-top: 40px;
       font-weight: bold;
-      color: #0077c2;
+      color: #2989d8;
+      text-shadow: 1px 1px #eee;
     }
     ul {
       margin: 0;
@@ -60,10 +63,35 @@
     }
     li:before {
       content: "•";
-      color: #0077c2;
+      color: #2989d8;
       display: inline-block;
       width: 1em;
       margin-left: -1em;
+    }
+    /* 不同的配色方案 */
+    /* 紫色 */
+    .purple {
+      background-color: #7b1fa2;
+      color: #fff;
+    }
+    .purple h2, .purple h3 {
+      color: #fff;
+      text-shadow: 1px 1px #333;
+    }
+    .purple li:before {
+      color: #fff;
+    }
+    /* 綠色 */
+    .green {
+      background-color: #43a047;
+      color: #fff;
+    }
+    .green h2, .green h3 {
+      color: #fff;
+      text-shadow: 1px 1px #333;
+    }
+    .green li:before {
+      color: #fff;
     }
   </style>
 </head>
@@ -77,7 +105,8 @@
     <p>電子郵件：wangxiaoming@example.com</p>
     <p>電話：+886 912345678</p>
     <p>地址：台灣台北市中山區復興北路99號</p>
- <h2>工作經驗</h2>
+
+    <h2>工作經驗</h2>
     <h3>前端開發人員，ABC公司（2018年至今）</h3>
     <p>負責開發和維護公司的網站，使用HTML、CSS和JavaScript進行前端開發。與設計師和後端開發人員合作，確保網站功能和設計的完美結合。</p>
     <h3>網站設計師，DEF公司（2016年-2018年）</h3>
